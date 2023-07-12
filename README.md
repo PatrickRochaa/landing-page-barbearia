@@ -3,6 +3,3 @@
 
 https://landing-page-barbearia-alpha.vercel.app/
  
-https://landing-page-barbearia-patrickrochaa.vercel.app/
-
-https://landing-page-barbearia-git-main-patrickrochaa.vercel.app/
