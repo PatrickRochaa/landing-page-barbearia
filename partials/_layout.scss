@@ -1,5 +1,5 @@
 .container{
-    max-width: 1440px;
+    max-width: 1300px;
     margin: 0 auto;
     padding: 0 8px;
 }
@@ -253,6 +253,23 @@
     to{
         transform: translateY(-8px) scale(1.07);
     }
+}
+
+.footer img:hover{
+    animation: translateX .8s infinite alternate;
+}
+
+@keyframes translateX {
+    from{
+        transform: translateX(-10px);
+    }
+    to{
+        transform: translateX(10px);
+    }
+}
+
+footer p{
+    text-align: center;
 }
 //--------
 // botao whatsapp

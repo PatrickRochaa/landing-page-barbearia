@@ -58,6 +58,18 @@ i {
   margin-top: 20px;
 }
 
+.header-logo:hover {
+  animation: translateX 0.8s infinite alternate;
+}
+
+@keyframes translateX {
+  from {
+    transform: translateX(-20px);
+  }
+  to {
+    transform: translateX(20px);
+  }
+}
 @media screen and (max-width: 768px) {
   .header-content {
     width: 100%;
@@ -78,7 +90,7 @@ i {
   }
 }
 .container {
-  max-width: 1440px;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 0 8px;
 }
@@ -301,6 +313,22 @@ i {
     transform: translateY(-8px) scale(1.07);
   }
 }
+.footer img:hover {
+  animation: translateX 0.8s infinite alternate;
+}
+
+@keyframes translateX {
+  from {
+    transform: translateX(-10px);
+  }
+  to {
+    transform: translateX(10px);
+  }
+}
+footer p {
+  text-align: center;
+}
+
 .btn-whatsapp {
   position: fixed;
   bottom: 14px;
