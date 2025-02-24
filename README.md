@@ -1,6 +1,4 @@
-Aqui está o **README** atualizado com o link correto do site:
 
----
 
 # Rocha Barbearia
 
